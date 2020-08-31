@@ -30,7 +30,7 @@ public class FileDownload {
         browser.findElement(By.xpath("//a[contains(text(),'logo.png')]")).click();
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
